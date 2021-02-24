@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SEM3\\UWP\\lab3\\lab3\\lab3.csproj": {}
+    "F:\\SEM3\\UWP\\lab3\\lab3\\lab3.csproj": {}
   },
   "projects": {
-    "E:\\SEM3\\UWP\\lab3\\lab3\\lab3.csproj": {
+    "F:\\SEM3\\UWP\\lab3\\lab3\\lab3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SEM3\\UWP\\lab3\\lab3\\lab3.csproj",
+        "projectUniqueName": "F:\\SEM3\\UWP\\lab3\\lab3\\lab3.csproj",
         "projectName": "lab3",
-        "projectPath": "E:\\SEM3\\UWP\\lab3\\lab3\\lab3.csproj",
+        "projectPath": "F:\\SEM3\\UWP\\lab3\\lab3\\lab3.csproj",
         "packagesPath": "C:\\Users\\bayer\\.nuget\\packages\\",
-        "outputPath": "E:\\SEM3\\UWP\\lab3\\lab3\\obj\\",
+        "outputPath": "F:\\SEM3\\UWP\\lab3\\lab3\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

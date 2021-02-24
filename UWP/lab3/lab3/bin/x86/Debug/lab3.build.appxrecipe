@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>e8ec8441-367c-4f5a-8bfe-84bfdc407bfd</PackageIdentityName>
     <PackageIdentityPublisher>CN=bayer</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\SEM3\UWP\lab3\lab3\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\SEM3\UWP\lab3\lab3\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\lab3.exe">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\lab3.exe">
       <PackagePath>entrypoint\lab3.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,85 +34,85 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Financial.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Financial.png">
       <PackagePath>Assets\Financial.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Financial2.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Financial2.png">
       <PackagePath>Assets\Financial2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Financial3.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Financial3.png">
       <PackagePath>Assets\Financial3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Financial4.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Financial4.png">
       <PackagePath>Assets\Financial4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Financial5.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Financial5.png">
       <PackagePath>Assets\Financial5.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Food.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Food.png">
       <PackagePath>Assets\Food.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Food1.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Food1.png">
       <PackagePath>Assets\Food1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Food2.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Food2.png">
       <PackagePath>Assets\Food2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Food3.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Food3.png">
       <PackagePath>Assets\Food3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Food4.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Food4.png">
       <PackagePath>Assets\Food4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Food5.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Food5.png">
       <PackagePath>Assets\Food5.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\lab3.xr.xml">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\lab3.xr.xml">
       <PackagePath>lab3.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\Core\lab3.exe">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\Core\lab3.exe">
       <PackagePath>lab3.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oWhS6S/MBObfY+tyXr1QuWjxD4lF7sAk3e3RwfGW8exjJl2pKWof6gUOTRNJQ4Nb8voJdhif1+HFEh+RqmXABw==",
+  "dgSpecHash": "6Kg9qsOEntj6ewv5E0bJTwp1l1JByvsaux7OF7pw2GmmyNwYNmVwSfgpye2m3Jnyef4U1DoIIRTVPu6gM3YdYw==",
   "success": true,
-  "projectFilePath": "E:\\SEM3\\UWP\\lab4\\lab4\\lab4.csproj",
+  "projectFilePath": "F:\\SEM3\\UWP\\lab4\\lab4\\lab4.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

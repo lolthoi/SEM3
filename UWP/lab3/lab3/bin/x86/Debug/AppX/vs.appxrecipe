@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>e8ec8441-367c-4f5a-8bfe-84bfdc407bfd</PackageIdentityName>
     <PackageIdentityPublisher>CN=bayer</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\SEM3\UWP\lab3\lab3\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\SEM3\UWP\lab3\lab3\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>7E6D7C9DA7CE61A89DFF8A71A17B3329175C11C089A194A75574C1CC5CED6BE8</RegisteredManifestChecksum>
+    <LayoutDir>F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>9F422CAFD221036E3380ED4F229EB4D2E11BE3CEB60AB4C191D815C863FDD058</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e8ec8441-367c-4f5a-8bfe-84bfdc407bfd_1.0.0.0_x86__z054e79htdj78</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e8ec8441-367c-4f5a-8bfe-84bfdc407bfd_z054e79htdj78!App</RegisteredUserModeAppID>
     <RegisteredPackageID>e8ec8441-367c-4f5a-8bfe-84bfdc407bfd</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-29T12:01:55.065</Modified>
+      <Modified>2021-02-24T11:28:26.134</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\lab3.exe">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\lab3.exe">
       <PackagePath>entrypoint\lab3.exe</PackagePath>
-      <Modified>2021-01-29T12:01:54.710</Modified>
+      <Modified>2021-02-24T11:28:25.156</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,111 +46,111 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Financial.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Financial.png">
       <PackagePath>Assets\Financial.png</PackagePath>
       <Modified>2021-01-27T13:04:04.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Financial2.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Financial2.png">
       <PackagePath>Assets\Financial2.png</PackagePath>
       <Modified>2021-01-27T13:04:04.999</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Financial3.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Financial3.png">
       <PackagePath>Assets\Financial3.png</PackagePath>
       <Modified>2021-01-27T13:04:05.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Financial4.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Financial4.png">
       <PackagePath>Assets\Financial4.png</PackagePath>
       <Modified>2021-01-27T13:04:05.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Financial5.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Financial5.png">
       <PackagePath>Assets\Financial5.png</PackagePath>
       <Modified>2021-01-27T13:04:05.002</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Food.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Food.png">
       <PackagePath>Assets\Food.png</PackagePath>
       <Modified>2021-01-27T13:04:05.003</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Food1.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Food1.png">
       <PackagePath>Assets\Food1.png</PackagePath>
       <Modified>2021-01-27T13:04:05.004</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Food2.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Food2.png">
       <PackagePath>Assets\Food2.png</PackagePath>
       <Modified>2021-01-27T13:04:05.005</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Food3.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Food3.png">
       <PackagePath>Assets\Food3.png</PackagePath>
       <Modified>2021-01-27T13:04:05.006</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Food4.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Food4.png">
       <PackagePath>Assets\Food4.png</PackagePath>
       <Modified>2021-01-27T13:04:05.006</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Food5.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Food5.png">
       <PackagePath>Assets\Food5.png</PackagePath>
       <Modified>2021-01-27T13:04:05.007</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2021-01-14T16:14:28.615</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-14T16:14:28.619</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-14T16:14:28.620</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-14T16:14:28.621</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-14T16:14:28.621</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-14T16:14:28.622</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-14T16:14:28.623</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2021-01-27T13:03:49.263</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\lab3.xr.xml">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\lab3.xr.xml">
       <PackagePath>lab3.xr.xml</PackagePath>
-      <Modified>2021-01-29T12:01:54.647</Modified>
+      <Modified>2021-02-24T11:28:25.040</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-01-29T12:00:06.555</Modified>
+      <Modified>2021-02-24T11:28:25.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-01-29T12:01:54.651</Modified>
+      <Modified>2021-02-24T11:28:25.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T10:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-01-29T12:00:06.698</Modified>
+      <Modified>2021-02-24T11:28:25.327</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab3\lab3\bin\x86\Debug\Core\lab3.exe">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab3\lab3\bin\x86\Debug\Core\lab3.exe">
       <PackagePath>lab3.exe</PackagePath>
-      <Modified>2021-01-29T12:01:55.062</Modified>
+      <Modified>2021-02-24T11:28:26.101</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

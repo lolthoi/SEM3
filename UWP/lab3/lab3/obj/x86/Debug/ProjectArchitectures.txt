@@ -1,1 +1,1 @@
-E:\SEM3\UWP\lab3\lab3\lab3.csproj;x86
+F:\SEM3\UWP\lab3\lab3\lab3.csproj;x86

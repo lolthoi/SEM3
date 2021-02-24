@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>809d1634-92e4-4225-972d-81d7b96a2a40</PackageIdentityName>
     <PackageIdentityPublisher>CN=bayer</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\SEM3\UWP\lab4\lab4\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\SEM3\UWP\lab4\lab4\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>E:\SEM3\UWP\lab4\lab4\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>F:\SEM3\UWP\lab4\lab4\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\SEM3\UWP\lab4\lab4\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="F:\SEM3\UWP\lab4\lab4\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\bin\x86\Debug\lab4.exe">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\bin\x86\Debug\lab4.exe">
       <PackagePath>entrypoint\lab4.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,70 +34,70 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\Assets\female-01.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\Assets\female-01.png">
       <PackagePath>Assets\female-01.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\Assets\female-02.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\Assets\female-02.png">
       <PackagePath>Assets\female-02.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\Assets\female-03.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\Assets\female-03.png">
       <PackagePath>Assets\female-03.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\Assets\male-01.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\Assets\male-01.png">
       <PackagePath>Assets\male-01.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\Assets\male-02.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\Assets\male-02.png">
       <PackagePath>Assets\male-02.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\Assets\male-03.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\Assets\male-03.png">
       <PackagePath>Assets\male-03.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\bin\x86\Debug\lab4.xr.xml">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\bin\x86\Debug\lab4.xr.xml">
       <PackagePath>lab4.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SEM3\UWP\lab4\lab4\bin\x86\Debug\Core\lab4.exe">
+    <AppxPackagedFile Include="F:\SEM3\UWP\lab4\lab4\bin\x86\Debug\Core\lab4.exe">
       <PackagePath>lab4.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

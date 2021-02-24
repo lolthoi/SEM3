@@ -49,7 +49,7 @@ namespace lab4
 
             FirstNameTextBox.Text = "";
             LastNameTextBox.Text = "";
-            AvatarComboBox.SelectedIndex = -1;
+            AvatarComboBox.SelectedIndex = 1;
 
             FirstNameTextBox.Focus(FocusState.Programmatic);
         }
