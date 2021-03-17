@@ -1,0 +1,1 @@
+F:\SEM3\UWP\NewsAPI\NewsAPI.csproj;x86

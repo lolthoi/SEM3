@@ -86,3 +86,4 @@ F:\SEM3\UWP\lab3\lab3\obj\x86\Debug\qualifiers.txt.intermediate
 F:\SEM3\UWP\lab3\lab3\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 F:\SEM3\UWP\lab3\lab3\obj\x86\Debug\ProjectArchitectures.txt
 F:\SEM3\UWP\lab3\lab3\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885058160000000.json
+F:\SEM3\UWP\lab3\lab3\obj\x86\Debug\lab3.csprojAssemblyReference.cache

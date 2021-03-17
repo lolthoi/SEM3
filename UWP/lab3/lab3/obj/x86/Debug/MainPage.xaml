@@ -32,7 +32,7 @@
                        Margin="20,0,0,0"/>
             <AutoSuggestBox x:ConnectionId='15' Name="autoSuggestBox"
                             QueryIcon="Find"
-                            PlaceholderText="Text"
+                            PlaceholderText="Search"
                             RelativePanel.AlignRightWithPanel="True"
                             Width="200"
                             Margin="0,0,10,0"/>
@@ -73,9 +73,9 @@
                                 </Grid.RowDefinitions>
                                 <Image x:ConnectionId='9' Name="image1"                        />
                                 <StackPanel Grid.Row="1">
-                                    <TextBlock x:ConnectionId='10'                         />
-                                    <TextBlock x:ConnectionId='11'                        />
-                                    <TextBlock x:ConnectionId='12'                         />
+                                    <TextBlock x:ConnectionId='10'                          Foreground="Brown"/>
+                                    <TextBlock x:ConnectionId='11'                         Foreground="Brown"/>
+                                    <TextBlock x:ConnectionId='12'                          Foreground="Brown"/>
                                 </StackPanel>
                             </Grid>
                         </DataTemplate>

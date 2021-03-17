@@ -1,0 +1,1 @@
+F:\SEM3\UWP\SQLiteAppDemo\SQLiteAppDemo.csproj;x86

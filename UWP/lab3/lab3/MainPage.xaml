@@ -32,7 +32,7 @@
                        Margin="20,0,0,0"/>
             <AutoSuggestBox Name="autoSuggestBox"
                             QueryIcon="Find"
-                            PlaceholderText="Text"
+                            PlaceholderText="Search"
                             RelativePanel.AlignRightWithPanel="True"
                             Width="200"
                             Margin="0,0,10,0"/>
@@ -73,9 +73,9 @@
                                 </Grid.RowDefinitions>
                                 <Image Name="image1" Source="{x:Bind Image}"/>
                                 <StackPanel Grid.Row="1">
-                                    <TextBlock Text="{x:Bind HeadLine}"/>
-                                    <TextBlock Text="{x:Bind SubHead}"/>
-                                    <TextBlock Text="{x:Bind DateLine}"/>
+                                    <TextBlock Text="{x:Bind HeadLine}" Foreground="Brown"/>
+                                    <TextBlock Text="{x:Bind SubHead}" Foreground="Brown"/>
+                                    <TextBlock Text="{x:Bind DateLine}" Foreground="Brown"/>
                                 </StackPanel>
                             </Grid>
                         </DataTemplate>

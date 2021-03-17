@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="NewsAPI.ArticleView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NewsAPI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.TopAppBar>
+        <AppBar>
+            <AppBarButton x:Name="btnHome" Icon="Back" Label="Back" Click="btnHome_Click"/>
+        </AppBar>
+    </Page.TopAppBar>
+    <Grid>
+        <StackPanel Background="White">
+            <Image x:Name="Image" Width="350" Height="350"/>
+            <TextBlock Name="Title" FontSize="10" Foreground="Brown"/>
+            <TextBlock Name="Author" FontSize="25" Foreground="Brown"/>
+            <TextBlock Name="Description" FontSize="10" Foreground="Brown"/>
+        </StackPanel>
+    </Grid>
+</Page>
