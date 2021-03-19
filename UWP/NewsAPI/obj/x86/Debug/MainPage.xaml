@@ -25,17 +25,20 @@
                         Height="45"
                         HorizontalAlignment="Center"
                                              />
-                <TextBlock x:ConnectionId='9' x:Name="TitleTextBlock"
-                           RelativePanel.RightOf="Button1"
-                           FontSize="18"
-                           FontWeight="Bold"
-                           Margin="20,0,0,0"/>
-                <AutoSuggestBox x:ConnectionId='10' Name="autoSuggestBox"
-                                QueryIcon="Find"
-                                PlaceholderText="Search"
-                                RelativePanel.AlignRightWithPanel="True"
-                                Width="500"
-                                Margin="0,0,10,0"/>
+                <TextBox x:ConnectionId='9' x:Name="textSearch"
+                         PlaceholderText="Nhập từ khóa để tìm kiếm tin tức"
+                         RelativePanel.AlignRightWithPanel="True"
+                         Width="500"
+                         Height="45"
+                         Margin="0,0,50,0"/>
+                <Button x:ConnectionId='10' x:Name="search"
+                        FontFamily="Segoe MDL2 Assets"
+                        Content="&#xE71E;"
+                        Background="{x:Null}"
+                        RelativePanel.AlignRightWithPanel="True"
+                        Width="45"
+                        Height="45"
+                                            />
             </RelativePanel>
         </Grid>
         <Grid Grid.Row="1">
@@ -49,7 +52,6 @@
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="auto"/>
                             </Grid.RowDefinitions>
-
                             <Grid Grid.Row="0" Width="auto" Margin="10">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="auto"/>

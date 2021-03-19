@@ -48,3 +48,5 @@ F:\SEM3\UWP\NewsAPI\obj\x86\Debug\ArticleView.g.i.cs
 F:\SEM3\UWP\NewsAPI\obj\x86\Debug\ArticleView.g.cs
 F:\SEM3\UWP\NewsAPI\obj\x86\Debug\ArticleView.xaml
 F:\SEM3\UWP\NewsAPI\obj\x86\Debug\ArticleView.xbf
+F:\SEM3\UWP\NewsAPI\bin\x86\Debug\SQLite.Net.Platform.WinRT.dll
+F:\SEM3\UWP\NewsAPI\bin\x86\Debug\SQLite.Net.dll

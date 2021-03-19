@@ -16,12 +16,29 @@
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
             <RelativePanel>
-                <AutoSuggestBox Name="autoSuggestBox"
-                                QueryIcon="Find"
-                                PlaceholderText="Search"
-                                RelativePanel.AlignRightWithPanel="True"
-                                Width="500"
-                                Margin="0,0,10,0"/>
+                <Button Name="Button1"
+                        RelativePanel.AlignLeftWithPanel="True"
+                        FontFamily="Segoe MDL2 Assets"
+                        Content="&#xE700;"
+                        FontSize="20"
+                        Width="45"
+                        Height="45"
+                        HorizontalAlignment="Center"
+                        Click="Button1_Click"/>
+                <TextBox x:Name="textSearch"
+                         PlaceholderText="Nhập từ khóa để tìm kiếm tin tức"
+                         RelativePanel.AlignRightWithPanel="True"
+                         Width="500"
+                         Height="45"
+                         Margin="0,0,50,0"/>
+                <Button x:Name="search"
+                        FontFamily="Segoe MDL2 Assets"
+                        Content="&#xE71E;"
+                        Background="{x:Null}"
+                        RelativePanel.AlignRightWithPanel="True"
+                        Width="45"
+                        Height="45"
+                        Click="search_Click"/>
             </RelativePanel>
         </Grid>
         <Grid Grid.Row="1">
@@ -35,7 +52,6 @@
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="auto"/>
                             </Grid.RowDefinitions>
-
                             <Grid Grid.Row="0" Width="auto" Margin="10">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="auto"/>

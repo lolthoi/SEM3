@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X0tVSIYfslnzDWZHHJdQ1aZeYA4eBbI/lGQiH+WNaQqYG3f8FVuNXgYhnpc+7nqVmHBFd1B8SAihYQvDJaLgxw==",
+  "dgSpecHash": "kgY279FoyfeCFcbvAzmtk8EBrB9I8ESYoped79paDXRgSjb6xGfVD+CzNg92c0x6QeoFMis1UJh/I+PKJf9EaA==",
   "success": true,
   "projectFilePath": "F:\\SEM3\\UWP\\NewsAPI\\NewsAPI.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,9 @@
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.net.native.compiler\\2.2.9-rel-29512-01\\runtime.win10-x86.microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.net.native.sharedlibrary\\2.2.8-rel-29512-01\\runtime.win10-x86.microsoft.net.native.sharedlibrary.2.2.8-rel-29512-01.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.2.11\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512"
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
+    "C:\\Users\\bayer\\.nuget\\packages\\sqlite.net-pcl\\3.1.1\\sqlite.net-pcl.3.1.1.nupkg.sha512",
+    "C:\\Users\\bayer\\.nuget\\packages\\sqlite.net.core-pcl\\3.1.1\\sqlite.net.core-pcl.3.1.1.nupkg.sha512"
   ],
   "logs": []
 }

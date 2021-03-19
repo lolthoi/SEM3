@@ -28,12 +28,21 @@ namespace NewsAPI
         {
             this.InitializeComponent();
             Articles = new ObservableCollection<Article>();
-            CallApi("tesla", "2021-02-15", "publishedAt", "edaf13ccfa1a443085c925ff3792edd9");
         }
 
-        public async void CallApi(string q, string from, string sortBy, string apikey)
+        private void search_Click(object sender, RoutedEventArgs e)
         {
-            var url = String.Format("http://newsapi.org/v2/everything?q={0}&from={1}&sortBy={2}&apiKey={3}", q, from, sortBy, apikey);
+            if (Articles != null)
+            {
+                Articles.Clear();
+            }
+            var result = textSearch.Text;
+            CallApi(result);
+        }
+
+        public async void CallApi(string q)
+        {
+            var url = String.Format("http://newsapi.org/v2/everything?q={0}&from=2021-02-19&sortBy=publishedAt&apiKey=dbf1b99c9ba741679e891bf4104b3f21", q);
             var news = (Root)await NewsAPI.GetNews(url);
             news.articles.ForEach(n =>
             {
@@ -46,6 +55,11 @@ namespace NewsAPI
         {
             Article ar = e.ClickedItem as Article;
             Frame.Navigate(typeof(ArticleView), ar);
+        }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
