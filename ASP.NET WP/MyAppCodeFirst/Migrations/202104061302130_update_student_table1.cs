@@ -1,0 +1,16 @@
+namespace MyAppCodeFirst.Migrations
+{
+    using System;
+    using System.Data.Entity.Migrations;
+    
+    public partial class update_student_table1 : DbMigration
+    {
+        public override void Up()
+        {
+        }
+        
+        public override void Down()
+        {
+        }
+    }
+}

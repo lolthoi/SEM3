@@ -1,5 +1,3 @@
-use BikeStore;
-
 SET IDENTITY_INSERT production.brands ON;  
 
 INSERT INTO production.brands(brand_id,brand_name) VALUES(1,'Electra')

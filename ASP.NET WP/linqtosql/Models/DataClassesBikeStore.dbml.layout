@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.75, 8.5" name="DataClassesBikeStore">
+  <DataContextMoniker Name="/DataClassesBikeStoreDataContext" />
+  <nestedChildShapes>
+    <classShape Id="95452883-f8fe-4f26-bfe7-6d80cce02a5a" absoluteBounds="1.25, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DataClassesBikeStoreDataContext/store" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fae76071-e3f0-4b52-8196-4bc8e682d294" absoluteBounds="1.2650000000000001, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="01bb44e7-9fb6-4b69-a134-510fa2d8253f" absoluteBounds="1.25, 4.875, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DataClassesBikeStoreDataContext/staff" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c38689b0-4ef1-49b4-862b-914b53cea214" absoluteBounds="1.2650000000000006, 5.335, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d44a3ab3-a105-4c9b-b5b3-7ea042d264be" absoluteBounds="6.75, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DataClassesBikeStoreDataContext/order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6b5c0a46-430c-4619-8693-875ccd1b5a97" absoluteBounds="6.765, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a6a68fa6-2e37-4ec6-87fc-a20d6d3fb0d6" absoluteBounds="9.5, 1.125, 2, 1.9631982421875003">
+      <DataClassMoniker Name="/DataClassesBikeStoreDataContext/order_item" />
+      <nestedChildShapes>
+        <elementListCompartment Id="35a9cb80-d2ae-48a8-9c0e-27936ff2bac8" absoluteBounds="9.515, 1.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3ec713c8-d1b0-4108-9ae6-c693fa26c7b6" absoluteBounds="4, 4.875, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/DataClassesBikeStoreDataContext/customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0781d2c4-f8a7-4cbe-9f4f-17035b30dbd8" absoluteBounds="4.0150000000000006, 5.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="672fcc6e-db0f-4d92-b31b-46555d087d47" absoluteBounds="6.75, 5.125, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/DataClassesBikeStoreDataContext/product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a52208b6-cc7f-4b85-a705-55dd874804d9" absoluteBounds="6.765, 5.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.95923076923077 : 7.22280110677083); (1.95923076923077 : 7.47280110677083); (2.55461538461538 : 7.47280110677083); (2.55461538461538 : 7.22280110677083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesBikeStoreDataContext/staff/staff_staff" />
+      <nodes>
+        <classShapeMoniker Id="01bb44e7-9fb6-4b69-a134-510fa2d8253f" />
+        <classShapeMoniker Id="01bb44e7-9fb6-4b69-a134-510fa2d8253f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.25 : 3.34780110677083); (2.25 : 4.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesBikeStoreDataContext/store/store_staff" />
+      <nodes>
+        <classShapeMoniker Id="95452883-f8fe-4f26-bfe7-6d80cce02a5a" />
+        <classShapeMoniker Id="01bb44e7-9fb6-4b69-a134-510fa2d8253f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.25 : 4.87653746153846); (3.625 : 4.50153746153846); (3.625 : 2.15827680338542); (6.75 : 2.15827680338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesBikeStoreDataContext/staff/staff_order" />
+      <nodes>
+        <classShapeMoniker Id="01bb44e7-9fb6-4b69-a134-510fa2d8253f" />
+        <classShapeMoniker Id="d44a3ab3-a105-4c9b-b5b3-7ea042d264be" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.25 : 1.52445027669271); (6.75 : 1.52445027669271)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesBikeStoreDataContext/store/store_order" />
+      <nodes>
+        <classShapeMoniker Id="95452883-f8fe-4f26-bfe7-6d80cce02a5a" />
+        <classShapeMoniker Id="d44a3ab3-a105-4c9b-b5b3-7ea042d264be" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 2.10659912109375); (9.5 : 2.10659912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesBikeStoreDataContext/order/order_order_item" />
+      <nodes>
+        <classShapeMoniker Id="d44a3ab3-a105-4c9b-b5b3-7ea042d264be" />
+        <classShapeMoniker Id="a6a68fa6-2e37-4ec6-87fc-a20d6d3fb0d6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5 : 4.875); (5 : 2.79210333007812); (6.75 : 2.79210333007812)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesBikeStoreDataContext/customer/customer_order" />
+      <nodes>
+        <classShapeMoniker Id="3ec713c8-d1b0-4108-9ae6-c693fa26c7b6" />
+        <classShapeMoniker Id="d44a3ab3-a105-4c9b-b5b3-7ea042d264be" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 6.10659912109375); (10.5 : 6.10659912109375); (10.5 : 3.0881982421875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesBikeStoreDataContext/product/product_order_item" />
+      <nodes>
+        <classShapeMoniker Id="672fcc6e-db0f-4d92-b31b-46555d087d47" />
+        <classShapeMoniker Id="a6a68fa6-2e37-4ec6-87fc-a20d6d3fb0d6" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
