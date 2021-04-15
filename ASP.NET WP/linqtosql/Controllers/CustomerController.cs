@@ -21,7 +21,8 @@ namespace linqtosql.Controllers
         // GET: Customer/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            customer customer = db.customers.Single(x => x.customer_id == id);
+            return View(customer);
         }
 
         // GET: Customer/Create
@@ -50,7 +51,8 @@ namespace linqtosql.Controllers
         // GET: Customer/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            customer customer = db.customers.Single(x => x.customer_id == id);
+            return View(customer);
         }
 
         // POST: Customer/Edit/5
@@ -82,17 +84,20 @@ namespace linqtosql.Controllers
         // GET: Customer/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            customer customer = db.customers.Single(x => x.customer_id == id);
+            return View(customer);
         }
 
         // POST: Customer/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(int id, customer customer)
         {
             try
             {
                 // TODO: Add delete logic here
-
+                customer customer2 = db.customers.Single(x => x.customer_id == id);
+                db.customers.DeleteOnSubmit(customer2);
+                db.SubmitChanges();
                 return RedirectToAction("Index");
             }
             catch

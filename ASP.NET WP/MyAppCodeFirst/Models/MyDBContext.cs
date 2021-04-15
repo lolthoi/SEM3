@@ -8,9 +8,9 @@ namespace MyAppCodeFirst.Models
 {
     public class MyDBContext : DbContext
     {
-        public MyDBContext() : base("MyAppCodeFirst")
+        public MyDBContext() : base("name=MyAppCodeFirst")
         {
-           // Database.SetInitializer<MyDBContext>(new MyDBInit());
+            //Database.SetInitializer<MyDBContext>(new MyDBInit());
         }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -20,5 +20,6 @@ namespace MyAppCodeFirst.Models
         public DbSet<Course> Courses { get; set; }
         public DbSet<Grade> Grades { get; set; }
         public DbSet<Address> Addresses { get; set; }
+        public DbSet<StudentClass> StudentClasses { get; set; }
     }
 }

@@ -1,4 +1,3 @@
-F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.csproj.CoreCompileInputs.cache
 F:\SEM3\ASP.NET WP\MyAppCodeFirst\bin\MyAppCodeFirst.dll.config
 F:\SEM3\ASP.NET WP\MyAppCodeFirst\bin\MyAppCodeFirst.dll
 F:\SEM3\ASP.NET WP\MyAppCodeFirst\bin\MyAppCodeFirst.pdb
@@ -77,10 +76,17 @@ F:\SEM3\ASP.NET WP\MyAppCodeFirst\bin\System.Web.WebPages.Razor.xml
 F:\SEM3\ASP.NET WP\MyAppCodeFirst\bin\Newtonsoft.Json.xml
 F:\SEM3\ASP.NET WP\MyAppCodeFirst\bin\Antlr3.Runtime.pdb
 F:\SEM3\ASP.NET WP\MyAppCodeFirst\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.Migrations.Init.resources
+F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.Migrations.update_student_table.resources
+F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.Migrations.update_student_table1.resources
+F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.Migrations.update_table_student_v3.resources
+F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.Migrations.update_table_student_v4.resources
+F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.Migrations.update_table_student_v5.resources
+F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.csproj.GenerateResource.cache
+F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.csproj.CoreCompileInputs.cache
 F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.csproj.CopyComplete
 F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.dll
 F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.pdb
-F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.Migrations.Init.resources
-F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.csproj.GenerateResource.cache
-F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.Migrations.update_student_table.resources
-F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.Migrations.update_student_table1.resources
+F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.Migrations.update_table_student_v6.resources
+F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.Migrations.update_table_student_v.resources
+F:\SEM3\ASP.NET WP\MyAppCodeFirst\obj\Debug\MyAppCodeFirst.csprojAssemblyReference.cache

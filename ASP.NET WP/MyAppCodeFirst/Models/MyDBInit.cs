@@ -6,7 +6,7 @@ using System.Data.Entity;
 
 namespace MyAppCodeFirst.Models
 {
-    public class MyDBInit : DropCreateDatabaseAlways<MyDBContext>
+    public class MyDBInit : CreateDatabaseIfNotExists<MyDBContext>
     {
         protected override void Seed(MyDBContext context)
         {
