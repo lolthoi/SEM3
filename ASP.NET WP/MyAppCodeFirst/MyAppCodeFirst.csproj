@@ -126,53 +126,26 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\AddressesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\StudentsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202104061225465_Init.cs" />
-    <Compile Include="Migrations\202104061225465_Init.designer.cs">
-      <DependentUpon>202104061225465_Init.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202104061249393_update_student_table.cs" />
-    <Compile Include="Migrations\202104061249393_update_student_table.Designer.cs">
-      <DependentUpon>202104061249393_update_student_table.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202104061302130_update_student_table1.cs" />
-    <Compile Include="Migrations\202104061302130_update_student_table1.Designer.cs">
-      <DependentUpon>202104061302130_update_student_table1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202104071324085_update_table_student_v3.cs" />
-    <Compile Include="Migrations\202104071324085_update_table_student_v3.Designer.cs">
-      <DependentUpon>202104071324085_update_table_student_v3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202104071340066_update_table_student_v4.cs" />
-    <Compile Include="Migrations\202104071340066_update_table_student_v4.Designer.cs">
-      <DependentUpon>202104071340066_update_table_student_v4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202104071347084_update_table_student_v5.cs" />
-    <Compile Include="Migrations\202104071347084_update_table_student_v5.Designer.cs">
-      <DependentUpon>202104071347084_update_table_student_v5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202104071421161_update_table_student_v6.cs" />
-    <Compile Include="Migrations\202104071421161_update_table_student_v6.Designer.cs">
-      <DependentUpon>202104071421161_update_table_student_v6.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202104071423046_update_table_student_v.cs" />
-    <Compile Include="Migrations\202104071423046_update_table_student_v.Designer.cs">
-      <DependentUpon>202104071423046_update_table_student_v.cs</DependentUpon>
+    <Compile Include="Migrations\202104151430487_Init.cs" />
+    <Compile Include="Migrations\202104151430487_Init.Designer.cs">
+      <DependentUpon>202104151430487_Init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\Address.cs" />
-    <Compile Include="Models\Course.cs" />
-    <Compile Include="Models\Grade.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Customer_Payment.cs" />
+    <Compile Include="Models\Material.cs" />
     <Compile Include="Models\MyDBContext.cs" />
     <Compile Include="Models\MyDBInit.cs" />
-    <Compile Include="Models\Student.cs" />
-    <Compile Include="Models\StudentClass.cs" />
-    <Compile Include="Models\StudentConfig.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\Order_Material.cs" />
+    <Compile Include="Models\Order_Size.cs" />
+    <Compile Include="Models\Payment.cs" />
+    <Compile Include="Models\Size.cs" />
+    <Compile Include="Models\Staff.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -239,29 +212,8 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202104061225465_Init.resx">
-      <DependentUpon>202104061225465_Init.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202104061249393_update_student_table.resx">
-      <DependentUpon>202104061249393_update_student_table.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202104061302130_update_student_table1.resx">
-      <DependentUpon>202104061302130_update_student_table1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202104071324085_update_table_student_v3.resx">
-      <DependentUpon>202104071324085_update_table_student_v3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202104071340066_update_table_student_v4.resx">
-      <DependentUpon>202104071340066_update_table_student_v4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202104071347084_update_table_student_v5.resx">
-      <DependentUpon>202104071347084_update_table_student_v5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202104071421161_update_table_student_v6.resx">
-      <DependentUpon>202104071421161_update_table_student_v6.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202104071423046_update_table_student_v.resx">
-      <DependentUpon>202104071423046_update_table_student_v.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202104151430487_Init.resx">
+      <DependentUpon>202104151430487_Init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -14,12 +14,16 @@ namespace MyAppCodeFirst.Models
         }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Configurations.Add(new StudentConfig());
+            //modelBuilder.Configurations.Add(new StudentConfig());
         }
-        public DbSet<Student> Students { get; set; }
-        public DbSet<Course> Courses { get; set; }
-        public DbSet<Grade> Grades { get; set; }
-        public DbSet<Address> Addresses { get; set; }
-        public DbSet<StudentClass> StudentClasses { get; set; }
+        public DbSet<Customer_Payment> Customer_Payment { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Material> Materials { get; set; }
+        public DbSet<Order_Material> Order_Material { get; set; }
+        public DbSet<Order_Size> Order_Size { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Payment> Payments { get; set; }
+        public DbSet<Size> Sizes { get; set; }
+        public DbSet<Staff> Staffs { get; set; }
     }
 }

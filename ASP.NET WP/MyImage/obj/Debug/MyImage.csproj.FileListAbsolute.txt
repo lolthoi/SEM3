@@ -77,3 +77,7 @@ F:\SEM3\ASP.NET WP\MyImage\obj\Debug\MyImage.csproj.CoreCompileInputs.cache
 F:\SEM3\ASP.NET WP\MyImage\obj\Debug\MyImage.csproj.CopyComplete
 F:\SEM3\ASP.NET WP\MyImage\obj\Debug\MyImage.dll
 F:\SEM3\ASP.NET WP\MyImage\obj\Debug\MyImage.pdb
+F:\SEM3\ASP.NET WP\MyImage\bin\EntityFramework.dll
+F:\SEM3\ASP.NET WP\MyImage\bin\EntityFramework.xml
+F:\SEM3\ASP.NET WP\MyImage\bin\EntityFramework.SqlServer.dll
+F:\SEM3\ASP.NET WP\MyImage\bin\EntityFramework.SqlServer.xml
